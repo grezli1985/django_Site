@@ -2,9 +2,10 @@ from django.db.models import Count
 from django.core.cache import cache
 from .models import *
 
-menu = [{'title': 'О сайте', 'url_name': 'about'},
-        {'title': 'Добавить статью', 'url_name': 'addpage'},
-        {'title': 'Обратная связь', 'url_name': 'contact'},
+menu = [
+    {'title': 'О сайте', 'url_name': 'about'},
+    {'title': 'Добавить статью', 'url_name': 'addpage'},
+    {'title': 'Обратная связь', 'url_name': 'contact'},
 ]
 
 

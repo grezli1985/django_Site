@@ -16,8 +16,8 @@
         {% block mainmenu %}
             <div class="header">
                 <ul id="mainmenu" class="mainmenu">
-                    <li class="logo"><a href="{% url 'home' %}">
-                        <div class="logo"></div></a></li>
+                    <li><a href="{% url 'home' %}">
+                        <div class="logo">Главная</div></a></li>
 
                     {% for m in menu %}
                         <li><a href="{% url m.url_name %}">{{ m.title }}</a></li>
@@ -56,7 +56,7 @@
                         {% endfor %}
 
                         <li class="share">
-                            <p>Наш канал</p>
+                            <p></p>
                             <a class="share" href="#"></a>
                         </li>
                     </ul>
@@ -110,7 +110,7 @@
     </tr>
     <tr><td valign=top>
         <div id="footer">
-            <p>Все права защищены &copy;</p>
+            <p>Все права защищены 2024 &copy;</p>
         </div>
     </td></tr>
 </table>
